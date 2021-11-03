@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./suggestionForm.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+    
     <title>MidwayUSA</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                     <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./suggestionForm.html">Product Suggestion Form</a>
+                    <a class="nav-link" href="#">Product Suggestion Form</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./contact.html">Contact Us Form</a>
@@ -35,10 +36,25 @@
             </ul>
         </div>
     </nav>
-    <div class="is-hidden-mobile" id="header-banner" style="background-color: steelblue">
-        <a href="https://www.midwayusa.com/" target="blank" class="header-banner-text" aria-label="Free Shipping with no Minimum">
-        <p style="padding: .2rem; margin-bottom: 0; font-weight: 500; display: inline-block; font-size: 1em"><strong> CHECK IT OUT</strong> | MidwayUSA | <strong>Shop some of their Best Deals!</strong><i class="fa fa-angle-right" style="color: #ffffff; padding-left: .5em"></i></p></a>
-    </div>
+    <form>
+        <div class="card">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput2">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@example.com">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Please Describe Product</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-auto center-submit-contact">
+                <button type="submit" class="submit-contact btn mb-2">Submit</button>
+            </div>
+        </div>
+    </form>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
