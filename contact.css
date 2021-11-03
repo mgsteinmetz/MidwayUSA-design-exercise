@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(70, 131, 180);
+}
+
+.card {
+    width: 500px;
+    padding: 25px;
+
+    margin: 100px auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
