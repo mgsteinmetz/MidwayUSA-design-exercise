@@ -28,10 +28,32 @@ body {
 
 #header-banner {
     text-align: center;
-    color: white;
+    color: steel;
     text-decoration: none;
 }
 
 a {
     color: inherit;
+}
+
+.module {
+    margin-top: 75px;
+    height: 350px;
+}
+
+.module-heading {
+    font-size: 35px;
+    margin-bottom: 25px ;
+}
+
+.season-card {
+    padding: 25px;
+}
+
+#midway-link {
+    text-decoration: none;
+}
+
+#midway-link i {
+    margin-left: 10px;
 }
