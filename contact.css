@@ -10,3 +10,12 @@ body {
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+.submit-contact {
+    background-color: steelblue;
+    color: white;
+}
+
+.center-submit-contact {
+    text-align: center;
+}
