@@ -13,7 +13,7 @@ Front-End exercise for MidwayUSA
 ## Description
 This is my version of an application with two hidden feedback forms! This was done for the application/ interview process for MidwayUSA!
 
-Click | | to VIEW my deployed application!!
+Click | https://mgsteinmetz.github.io/MidwayUSA-design-exercise/ | to VIEW my deployed application!!
 
 Here is what my application looks like:
 
